@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+    <head> 
+         <!-- 编码 -->
+         <meta charset="utf-8"/>
+         <!-- 响应式布局 -->
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+         <title>用户注册</title> 
+         <!-- 引入外部样式 -->
+         <link rel="stylesheet" type="text/css" href="css/login&register.css"/>
+    </head>
+    <body> 
+        <!-- 表单 -->
+        <form action="" method="get" accept-charset="gbk">
+            <fieldset id="account"> 
+                <legend>用户注册</legend>  
+                <p>
+                <label for="name">姓名：</label> 
+                <input type="text" name="wd" id="name" required placeholder="姓名" /> 
+                </p>
+               <p>
+                <label for="website">手机号： </label> 
+                <input type="tel" name="myurl" id="website" placeholder="请输入手机号" pattern=""/>
+                   
+               </p>
+               <p>
+                <label>身份证号:</label>
+                <input type="text" name="card" required pattern="^\d{8,18}|[0-9x]{8,18}|[0-9X]{8,18}?$" placeholder="请输入身份证号码"/>
+               </p>
+               <p>
+                <label>密码:</label>
+                <input type="text" name="pwd" required pattern="/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[^]{8,16}$/" placeholder="8-16位，必须包含大写字母、小写字母和数字"/>
+               </p>
+               <p>
+                <label>确认密码:</label>
+                <input type="text" name="card" required placeholder="再次输入相同密码"/>
+               </p>
+              
+                <div class="btn">
+                   <input type="submit" value="提交" />
+                    <input type="reset" value="重置" />
+                </div>
+                </fieldset>
+        </form>  
+       </body> 
+</html>

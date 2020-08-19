@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>商品</title>
+    <!-- 响应式布局 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--引入外部样式表-->
+    <link rel="stylesheet" href="css/resetcss.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+<div id="header">
+    <ul id="leftlist" class="list">
+        <li class="haschild">
+            <a href="#" class="link" title="myorders">我的订单
+            </a>
+            <ul class="showdetail">
+                <li><a href="#" class="item">全部</a></li>
+                <li><a href="#" class="item">待付款</a></li>
+                <li><a href="#" class="item">待收货</a></li>
+                <li><a href="#" class="item">待评价</a></li>
+            </ul>
+        </li>
+        <li><a href="#" class="link">购物车</a></li>
+        <li class="haschild"><a href="#" class="link">收藏夹
+        </a>
+            <ul class="showdetail">
+                <li><a href="#" class="item">收藏商品</a></li>
+                <li><a href="#" class="item">关注店铺</a></li>
+            </ul>
+        </li>
+        <li class="haschild">
+            <a href="#" class="link" title="myorders">商品分类</a>
+            <ul class="showdetail">
+                <li><a href="#" class="item">礼物</a></li>
+                <li><a href="#" class="item">生鲜</a></li>
+                <li><a href="#" class="item">服装</a></li>
+                <li><a href="#" class="item">电器</a></li>
+                <li><a href="#" class="item">美食</a></li>
+                <li><a href="#" class="item">手机</a></li>
+            </ul>
+        </li>
+        <li class="haschild">
+            <a href="#" class="link">网站导航</a>
+
+            <div class="showdetail biglist">
+                <div class="listblock">
+                    <h2 class="shoptitle">主题市场</h2>
+                    <ul>
+                        <li><a href="#" class="items">女装</a></li>
+                        <li><a href="#" class="items">男装</a></li>
+                        <li><a href="#" class="items">鞋靴</a></li>
+                        <li><a href="#" class="items">箱包</a></li>
+                        <li><a href="#" class="items">手机</a></li>
+                        <li><a href="#" class="items">汽车</a></li>
+                        <li><a href="#" class="items">户外</a></li>
+                        <li><a href="#" class="items">运动</a></li>
+                        <li><a href="#" class="items">食品</a></li>
+                        <li><a href="#" class="items">家具</a></li>
+                        <li><a href="#" class="items">手表</a></li>
+                        <li><a href="#" class="items">珠宝</a></li>
+                    </ul>
+                </div>
+                <div class="listblock centerblock">
+                    <h2 class="shoptitle">特色市场</h2>
+                    <ul>
+                        <li><a href="#" class="items">全国购物</a></li>
+                        <li><a href="#" class="items">每天特卖</a></li>
+                        <li><a href="#" class="items">手快抢购</a></li>
+                        <li><a href="#" class="items">特价拍卖</a></li>
+                        <li><a href="#" class="items">清仓甩卖</a></li>
+                        <li><a href="#" class="items">高性价比</a></li>
+                        <li><a href="#" class="items">买前试用</a></li>
+                        <li><a href="#" class="items">3D试穿</a></li>
+                        <li><a href="#" class="items">满减优惠</a></li>
+                    </ul>
+                </div>
+                <div class="listblock">
+                    <h2 class="shoptitle">更多精选</h2>
+                    <ul>
+                        <li><a href="#" class="items">投诉建议</a></li>
+                        <li><a href="#" class="items">招商合作</a></li>
+                        <li><a href="#" class="items">企业采购</a></li>
+                        <li><a href="#" class="items">服务市场</a></li>
+                        <li><a href="#" class="items">游戏社区</a></li>
+                        <li><a href="#" class="items">校园加盟</a></li>
+                        <li><a href="#" class="items">办公生活</a></li>
+                        <li><a href="#" class="items">E卡便民</a></li>
+                        <li><a href="#" class="items">产权保护</a></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <ul id="rightlist" class="list">
+        <li><a href="login.html" class="link">登录</a></li>
+        <li><a href="register.html" class="link">注册</a></li>
+        <li><a href="#" class="link">联系我们</a></li>
+    </ul>
+</div>
+<div id="content">
+    <div id="shop">
+        <!--店铺名称-->
+        <a href="#">
+            <div id="shopname"><span>店铺名：邻家小公举</span></div>
+        </a>
+        <!--搜索框-->
+        <div id="search" class="query">
+            <input type="text" id="select" placeholder="请输入您喜欢的宝贝..."/>
+            <button type="button" id="btnquery">搜索</button>
+        </div>
+    </div>
+    <div id="shopmenus">
+        <ul id="smenus">
+            <li><a href="#" class="smenu">店铺首页</a></li>
+            <li class="hasmenu">
+                <a href="#" class="smenu">所有分类</a>
+                <ul class="catalogs">
+                    <li class="hasmenutwo"><a href="#" class="class">衣服</a>
+                        <ul class="twocatalog">
+                            <li><a href="#" class="class">裙子</a></li>
+                            <li><a href="#" class="class">毛衣</a></li>
+                            <li><a href="#" class="class">短裙</a></li>
+                            <li><a href="#" class="class">韩式制服</a></li>
+                            <li><a href="#" class="class">连衣裙</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="class">套装</a></li>
+                    <li><a href="#" class="class">配饰</a></li>
+                    <li><a href="#" class="class">鞋子</a></li>
+                    <li><a href="#" class="class">包包</a></li>
+                </ul>
+            </li>
+            <li><a href="#" class="smenu">新品上市</a></li>
+            <li><a href="#" class="smenu">潮流百搭</a></li>
+            <li><a href="#" class="smenu">品牌推荐</a></li>
+            <li><a href="#" class="smenu">精品推荐</a></li>
+            <li><a href="#" class="smenu">过季优惠</a></li>
+        </ul>
+    </div>
+    <div id="goodshow">
+        <div id="imags" style="overflow: visible">
+            <div class="imgbox">
+                <!-- 商品大图 -->
+                <a class="smallimg" href="#">
+                    <img id="smallimg" alt="加载中..." src="img/tbg1.jpg">
+                </a>
+                <!--商品细节大图-->
+                <div class="bigbox">
+                    <img id="bimg" alt="加载中..." src="img/tbg1.jpg">
+                </div>
+                <!--大图上的显示区域遮罩层-->
+                <div id="layer">
+                </div>
+            </div>
+            <!--缩略图-->
+            <div class="imgsbox">
+                <ul id="imgslist">
+                    <li class="imglist selected">
+                        <!-- 商品小图 -->
+                        <img class="simg" alt="加载中..." src="img/tbg1.jpg">
+                    </li>
+                    <li class="imglist">
+                        <!-- 商品小图 -->
+                        <img class="simg" alt="加载中..." src="img/tbg2.jpg">
+                    </li>
+                    <li class="imglist">
+                        <!-- 商品小图 -->
+                        <img class="simg" alt="加载中..." src="img/tbg3.jpg">
+                    </li>
+                    <li class="imglist">
+                        <!-- 商品小图 -->
+                        <img class="simg" alt="加载中..." src="img/tbg4.jpg">
+                    </li>
+                    <li class="imglist">
+                        <!-- 商品小图 -->
+                        <img class="simg" alt="加载中..." src="img/tbg5.jpg">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="imgtxt">
+            <h2>长裙子2020年新款夏天学生甜美法式初恋少女学生显瘦娃娃领连衣裙 </h2>
+
+            <div class="goodinfo">这款清新夏季连衣裙，仙气十足，优雅，可爱，显白。面料舒适，十分符合你的仙女范！</div>
+            <div class="goodinfo">价格&nbsp;&nbsp;&nbsp;&nbsp;<span class="price">￥199</span></div>
+            <div class="goodinfo">配送&nbsp;&nbsp;&nbsp;&nbsp;<span class="price">包邮</span></div>
+            <div class="goodinfo" id="size">尺码&nbsp;&nbsp;&nbsp;&nbsp;
+                <p class="block">S</p>
+
+                <p class="block">M</p>
+
+                <p class="block">L</p></div>
+            <div class="goodinfo" id="color">颜色&nbsp;&nbsp;&nbsp;&nbsp;<p class="block">黄色</p>
+
+                <p class="block">蓝色</p>
+
+                <p class="block">橘色</p></div>
+            <div class="goodinfo">数量&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" min="1" id="num" value="1"/>件（库存50件）</div>
+            <div class="goodinfo"><input type="button" value="立即购买" class="btngood" id="btnbuy"/>&nbsp;&nbsp;&nbsp;&nbsp;<input
+                    type="button" value="加入购物车" class="btngood" id="btnadd"/></div>
+        </div>
+        <div>
+            <div id="shopdetails">
+                <div id="shop">
+                 <p><span class="SName">邻家小公举</span></p>
+                 <p>信誉：4.8</p>
+                 <p>联系：<a href="">联系我们</a></p>
+                </div>
+                 <hr>
+                 <div id="evalutate">
+                     <div id="discription" class="evaluate">
+                         <p>描述</p>
+                         <p>4.7</p>
+                     </div>
+                     <div id="service" class="evaluate">
+                         <p>服务</p>
+                         <p>4.8</p>
+                     </div>
+                     <div id="logistics" class="evaluate">
+                         <p>物流</p>
+                         <p>4.9</p>
+                     </div>
+                 </div>
+                 <p id="btn1">
+                     <input type="button" value="进入店铺">
+                     <input type="button" value="收藏店铺">
+                 </p>
+             </div>
+             <div id="recommend1">
+                 <p>猜你喜欢</p>
+                 <ul>
+                     <li><a href=""><img src="img/tbtj1.jpg" alt=""></a><p>￥168.00</p></li>
+                     <li><a href=""><img src="img/tbtj2.jpg" alt=""></a><p>￥168.00</p></li>
+                     <li><a href=""><img src="img/tbtj3.jpg" alt=""></a><p>￥168.00</p></li>
+                     <li><a href=""><img src="img/tbtj4.jpg" alt=""></a><p>￥168.00</p></li>
+                 </ul>
+             </div>
+        </div>
+    </div>
+    <div id="gooddetail">
+
+    </div>
+</div>
+<div id="footer">
+    Copyright © 2019 - 现在  17txli 版权所有
+</div>
+<!--显示高清大图-->
+<div id="showbigimg"><img src="img/good1.jpg" id="bigimg"></div>
+<script src="js/publicgood.js"></script>
+<script src="js/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="js/mejqzoom.js"></script>
+</body>
+</html>

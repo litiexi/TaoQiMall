@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 编码 -->
+        <meta charset="utf-8"/>
+        <!-- 响应式布局 -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+        <title>用户登陆</title> 
+        <!-- 引入外部样式 -->
+        <link rel="stylesheet" type="text/css" href="css/login&register.css"/>
+    </head>
+    <body>
+        <!-- 表单 -->
+        <form action="" method="get" accept-charset="gbk">
+            <fieldset id="account"> 
+                <legend>用户登陆</legend>  
+                <p>
+                <label for="name">姓名：</label> 
+                <input type="text" name="wd" id="name" required placeholder="姓名" /> 
+                </p>
+               
+               <p>
+                <label for="website">手机号： </label> 
+                <input type="tel" name="myurl" id="website" placeholder="请输入手机号" pattern=""/>    
+               </p>
+              
+               <p>
+                <label for="website">密码： </label> 
+                <input type="tel" name="myurl" id="website" placeholder="请输入登陆密码" pattern=""/>    
+               </p>
+               <p id="forgetpwd">
+                <a href="">忘记密码</a>
+                <a href="register.html">用户注册</a>
+            </p>
+                <div class="btn">
+                   <input type="submit" value="登陆" />
+                    <input type="reset" value="重置" />
+                </div>
+                </fieldset>
+        </form>  
+       </body> 
+</html>

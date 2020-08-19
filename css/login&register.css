@@ -1,0 +1,88 @@
+/*全局控制*/
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:16px;
+	/* background: #ff8500; */
+	color: #ff8500;
+}
+/*重置浏览器样式*/
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+form {
+	width: 500px;
+	height:500px;
+	/*表单水平居中*/
+	margin: 40px auto;
+	padding: 20px;
+	
+}
+
+form #account  #forgetpwd{
+	width: auto;
+	height: auto;
+	/* float: left; */
+	/* padding-left: 60px; */
+	margin-left: 180px;
+	font-size: 14px;
+}
+p {
+ margin-top: 15px;	
+ padding-left: 30px;
+}
+input, textarea {
+    display: inline-block;
+	width: 300px;
+	height: 30px;
+	line-height:30px;
+	margin-top: 5px;
+	background-color: #fff;
+	border: 1px solid #ff8500;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;}
+p label{
+	/*转换为行内块元素*/
+	display:inline-block;
+	width:80px;
+	/*文本右对齐*/
+	text-align:right;
+	padding-right: 10px;
+}
+fieldset#account {
+	background: rgba(244,244,244,0.7);
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	border: 10px double #ff8500;
+	padding-bottom: 20px;
+	/* color: #ff8500; */
+
+}
+legend {
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	/* color: #999;
+	 */
+	 color: #ff8500;;
+	text-align: center;
+	padding: 0 10px;
+	/*设置“用户注册”文本阴影*/
+	text-shadow: 1px 1px 0 #ccc;
+}
+textarea {
+	min-height: 80px;
+}
+.btn{margin-left: 140px;}
+/*定义按钮样式*/ 
+.btn input{
+	width:60px;
+	height:30px;
+	margin-left: 40px;
+	border-radius:3px;
+	border:1px solid #ff8500;
+	background: none;
+	opacity: 1.0;
+	}	
